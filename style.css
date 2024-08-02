@@ -1,0 +1,51 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+
+    height: 100%;
+    width: 100%;
+
+}
+
+#main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightcyan;
+}
+
+#main #box{
+    height: 400px;
+    width: 300px;
+    background-color: salmon;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 12px 20px;
+}
+
+#box p{
+    width: 80%;
+    font-size: 18px;
+    font-family: poppins;
+    text-align: center;
+}
+
+button{
+    padding: 8px 12px;
+    font-size: 15px;
+    background-color: rgb(0, 217, 255);
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(203, 252, 252);
+}
